@@ -1,0 +1,33 @@
+package com.example.codykirkland.geoquiz;
+
+/**
+ * Created by cody on 9/19/2017.
+ */
+
+public class question {
+
+    private int mTextResId;
+    private boolean mAnswerTrue;
+
+    public int getTextResId() {
+        return mTextResId;
+    }
+
+    public void setTextResId(int textResId) {
+        mTextResId = textResId;
+    }
+
+    public boolean isAnswerTrue() {
+        return mAnswerTrue;
+    }
+
+    public void setAnswerTrue(boolean answerTrue) {
+        mAnswerTrue = answerTrue;
+    }
+
+
+    public question(int textResId, boolean answerTrue) {
+        mTextResId = textResId;
+        mAnswerTrue = answerTrue;
+    }
+}
